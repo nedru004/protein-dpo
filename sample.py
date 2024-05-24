@@ -58,11 +58,11 @@ def parse_arguments():
             default=1000,
     )
     parser.add_argument(
-        '--weights_path', type=str, default=None', 
+        '--weights_path', type=str, default=None, 
         required =False, help='path'
     )
     parser.add_argument(
-        '--fixed_pos', type=str, default=None', 
+        '--fixed_pos', type=str, default=None, 
         required =False, help='path'
     )
     return parser.parse_args()
